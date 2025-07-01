@@ -1,5 +1,5 @@
 // Load and process the data
-d3.csv("/Users/mohamedbassimbo/Downloads/dtsc 630/electric_vehicles_spec_2025.csv").then(function(data) {
+d3.csv("electric_vehicles_spec_2025.csv").then(function(data) {
     // Convert numeric fields to numbers
     data.forEach(function(d) {
         d.range_km = +d.range_km;
